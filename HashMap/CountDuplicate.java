@@ -1,0 +1,24 @@
+package com.HashMap;
+
+import java.util.HashMap;
+
+public class CountDuplicate {
+
+	public static void main(String[] args) {
+	int [] arr = {12,23,34,34,34,23,15,12};
+	HashMap<Integer, Integer> map = new HashMap<>();
+//	for(int key : arr) {
+//		if(map.containsKey(key)) {
+//			map.put(key, map.get(key)+1);
+//		} else {
+//			map.put(key, 1);
+//		}
+//	}
+//	System.out.println(map);
+	for(int key:map.keySet()) {
+		System.out.println(key+" "+map.get(key));
+	}
+
+	}
+
+}
